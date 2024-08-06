@@ -1,0 +1,41 @@
+# Chargement de l'ensemble des packages utiles pour ce projet:
+
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(data.table)
+library(duckdb)
+library(dbplyr)
+library(stringr)
+library(haven)
+library(lubridate)
+library(spatstat)
+library(ggplot2)
+library(janitor)
+library(magrittr)
+library(Hmisc)
+library(questionr)
+library(readxl)
+library(forcats)
+library(gtools)
+library(gtsummary)
+theme_gtsummary_language("fr",decimal.mark = ",",big.mark = "")
+library(ggstats)
+library(labelled)
+library(raster)
+library(arrow)
+
+library(sf)
+library(viridis)
+library(egg)
+
+library(ivreg) # ou library(AER) ?
+library(scales)
+library(modelsummary)
+
+library(ivreg)
+library(stargazer)
+library(sandwich)
+library(lmtest)
+library(plm)
+
